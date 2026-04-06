@@ -1,0 +1,44 @@
+Entrada Vazia:
+Exemplo: Usuário pressiona enter sem digitar nada ("").
+Problema: O código pode falhar ou retornar valores incorretos.
+
+Apenas Espaços:
+Exemplo: ( "  " ).
+Problema: Deve ser tratado como vazio.
+
+Apenas pontuação:
+Exemplo: (", . : ; ")
+Problema: Não contem palavras válidas.
+
+Texto com pontuação:
+Exemplo: ("Olá mundo!")
+Problema: A pontuação interfere na contagem correta.
+
+Caracteres especiais e acentos:
+Exemplo: ("Python é incrível!")
+Problema: Pode gerar palavras separadas caso haja tratamento incorreto.
+
+Varios espaçoes entre palavras:
+Exemplo: ("Essa Frase é curta ! ")
+Problema: O Split() pode gerar listas incorretas.
+
+Palavras Repetidas:
+Exemplo: ("Python PYTHON é bom")
+Problema: Deve contar corretamente a frequência.
+
+Maiúsculas e minúsculas:
+Exemplo: ("Python PYTHON python")
+Problema: O código deve tratar palavras como iguais.
+
+Números na frase:
+Exemplo: ("Faço 26 anos em 2 meses")
+Problema: Dependendo do contexto, pode ser palavra válida ou não.
+
+Somente Numeros:
+Exemplo: ("123 456 789")
+Problema: Números podem ser tratados como palavras.
+
+Mistura de letras e números:
+Exemplo: ("Python3 é melhor que Python2?)
+Problema: A pontuação pode separar indevidamente.
+

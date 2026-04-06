@@ -1,0 +1,31 @@
+Erro: Entrada Inválida  (ValueError): 
+R: Ocorre quando tentamos converter um valor que não pode ser transformado no tipo esperado. Ex: float("abc). 
+Solução: Tratar erro com bloco try/except.
+
+Erro: Tipo Inválido (TypeError):
+R: Ocorre quando realizamos operações incompatíveis entre tipos de dados. Ex: 10 * "5".
+Solução: converter valores antes de operações. Ex: int("5").
+
+Erro: índice fora da lista (IndexError):
+R: Ocorre ao tentar acessar uma chave que não existe em um dicionário.
+Solução: Usar .get("chave", valor_padrao) para evitar erro.
+
+Erro: Chave Inexistente (KeyError):
+R: Ocorre ao tentar acessar um índice que não existe em uma lista. Ex: acessar lista[5] em uma lista de 3 itens.
+Solução: Conferir len(lista) antes de acessar um índice.
+
+Erro: Erro de Importação (ImportError):
+R: Ocorre quando um módulo é encontrado, mas não pode ser carregado corretamente.
+Solução: Verificar se o módulo está instalado e disponível.
+
+Erro: Módulo não encontrado (ModuleNotFoundError):
+R: Ocorre quando tentamos importar um módulo que não está instalado ou não existe.
+Solução: Garantir que o módulo está instalado com `pip install modulo`.
+
+Erro: Atributo Inexistente (AttributeError):
+R: Ocorre quando tentamos acessar um atributo ou método que não existe em um objeto. Ex: "abc".append(5).
+Solução: Converter valores antes de operações. Ex: int("5").
+
+Erro: Sintaxe Inválida (SyntaxError):
+R: Ocorre quando há um erro na escrita do código, como esquecer um : ou parenteses.
+Solução: Revisar Sintaxe e corrigir erros antes de rodar o código.
